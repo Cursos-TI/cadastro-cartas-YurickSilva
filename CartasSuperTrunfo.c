@@ -38,10 +38,10 @@ int main() {
     printf("Digite o total de pontos turisticos da cidade N1:");
         scanf("%d", &npturisticos01);
 
-    printf("Digite a area em M² da cidade N1:");
+    printf("Digite a area em KM² da cidade N1:");
         scanf("%f", &area01);
 
-    printf("Digite o PIB em BI de R$ da cidade N1 :");
+    printf("Digite o R$ da cidade N1 :");
         scanf("%f", &pib01);
 
  // Área para entrada de dados da carta número 2
@@ -60,10 +60,10 @@ int main() {
     printf("Digite o total de pontos turisticos da cidade N2:");
         scanf("%d", &npturisticos02);
 
-    printf("Digite a area em M² da cidade N2:");
+    printf("Digite a area em KM² da cidade N2:");
         scanf("%f", &area02);
 
-    printf("Digite o PIB em BI de R$ da cidade N2 :");
+    printf("Digite o PIB em R$ da cidade N2 :");
         scanf("%f", &pib02);
 
   // Área para exibição dos dados da carta N1
@@ -80,8 +80,8 @@ int main() {
     printf("Nome da Cidade: %s\n", nomecidade01);
     printf("Populacao: %d\n", populacao01);
     printf("Pontos Turisticos: %d\n", npturisticos01);
-    printf("Area em M²: %.2f\n", area01);
-    printf("PIB em BI de R$: %.2f\n", pib01);
+    printf("Area em KM²: %.2f\n", area01);
+    printf("PIB em R$: %.2f\n", pib01);
 
  //Área para exibição dos dados da carta N2
     printf("\n\nCarta N2\n");
@@ -90,8 +90,8 @@ int main() {
     printf("Nome da Cidade: %s\n", nomecidade02);
     printf("Populacao: %d\n", populacao02);
     printf("Pontos Turisticos: %d\n", npturisticos02);
-    printf("Area em M²: %.2f\n", area02);
-    printf("PIB em BI de R$: %.2f\n", pib02);
+    printf("Area em KM²: %.2f\n", area02);
+    printf("PIB em R$: %.2f\n", pib02);
 
 return 0;
 } 
