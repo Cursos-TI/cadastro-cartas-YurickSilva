@@ -41,7 +41,7 @@ int main() {
     printf("Digite a area em KM² da cidade N1:");
         scanf("%f", &area01);
 
-    printf("Digite o R$ da cidade N1 :");
+    printf("Digite o PIB em R$ da cidade N1 :");
         scanf("%f", &pib01);
 
  // Área para entrada de dados da carta número 2
